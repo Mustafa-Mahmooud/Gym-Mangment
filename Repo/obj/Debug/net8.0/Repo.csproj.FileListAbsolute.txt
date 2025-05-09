@@ -1,0 +1,15 @@
+C:\Users\20120\Desktop\Gym-Mangment\Repo\bin\Debug\net8.0\Repo.deps.json
+C:\Users\20120\Desktop\Gym-Mangment\Repo\bin\Debug\net8.0\Repo.dll
+C:\Users\20120\Desktop\Gym-Mangment\Repo\bin\Debug\net8.0\Repo.pdb
+C:\Users\20120\Desktop\Gym-Mangment\Repo\bin\Debug\net8.0\Core.dll
+C:\Users\20120\Desktop\Gym-Mangment\Repo\bin\Debug\net8.0\Core.pdb
+C:\Users\20120\Desktop\Gym-Mangment\Repo\obj\Debug\net8.0\Repo.csproj.AssemblyReference.cache
+C:\Users\20120\Desktop\Gym-Mangment\Repo\obj\Debug\net8.0\Repo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20120\Desktop\Gym-Mangment\Repo\obj\Debug\net8.0\Repo.AssemblyInfoInputs.cache
+C:\Users\20120\Desktop\Gym-Mangment\Repo\obj\Debug\net8.0\Repo.AssemblyInfo.cs
+C:\Users\20120\Desktop\Gym-Mangment\Repo\obj\Debug\net8.0\Repo.csproj.CoreCompileInputs.cache
+C:\Users\20120\Desktop\Gym-Mangment\Repo\obj\Debug\net8.0\Repo.csproj.Up2Date
+C:\Users\20120\Desktop\Gym-Mangment\Repo\obj\Debug\net8.0\Repo.dll
+C:\Users\20120\Desktop\Gym-Mangment\Repo\obj\Debug\net8.0\refint\Repo.dll
+C:\Users\20120\Desktop\Gym-Mangment\Repo\obj\Debug\net8.0\Repo.pdb
+C:\Users\20120\Desktop\Gym-Mangment\Repo\obj\Debug\net8.0\ref\Repo.dll

@@ -1,0 +1,263 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82C32D43-02AF-43B6-AD7A-121B2E59BAB3}|Presentation.csproj|c:\\users\\20120\\desktop\\gym-mangment\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C32D43-02AF-43B6-AD7A-121B2E59BAB3}|Presentation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C32D43-02AF-43B6-AD7A-121B2E59BAB3}|Presentation.csproj|c:\\users\\20120\\desktop\\gym-mangment\\presentation\\presentation.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{82C32D43-02AF-43B6-AD7A-121B2E59BAB3}|Presentation.csproj|solutionrelative:presentation.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C32D43-02AF-43B6-AD7A-121B2E59BAB3}|Presentation.csproj|c:\\users\\20120\\desktop\\gym-mangment\\presentation\\helper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C32D43-02AF-43B6-AD7A-121B2E59BAB3}|Presentation.csproj|solutionrelative:helper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60AEA234-A511-4AE4-8E80-203DFAB6D85F}|..\\Repo\\Repo.csproj|c:\\users\\20120\\desktop\\gym-mangment\\repo\\data\\migrations\\20250509183033_null in entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC4A525-ACFD-4451-9794-A4BDB4334DDE}|..\\Core\\Core.csproj|c:\\users\\20120\\desktop\\gym-mangment\\core\\entites\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC4A525-ACFD-4451-9794-A4BDB4334DDE}|..\\Core\\Core.csproj|c:\\users\\20120\\desktop\\gym-mangment\\core\\entites\\trainers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC4A525-ACFD-4451-9794-A4BDB4334DDE}|..\\Core\\Core.csproj|c:\\users\\20120\\desktop\\gym-mangment\\core\\entites\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC4A525-ACFD-4451-9794-A4BDB4334DDE}|..\\Core\\Core.csproj|c:\\users\\20120\\desktop\\gym-mangment\\core\\entites\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C32D43-02AF-43B6-AD7A-121B2E59BAB3}|Presentation.csproj|c:\\users\\20120\\desktop\\gym-mangment\\presentation\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C32D43-02AF-43B6-AD7A-121B2E59BAB3}|Presentation.csproj|solutionrelative:controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C32D43-02AF-43B6-AD7A-121B2E59BAB3}|Presentation.csproj|c:\\users\\20120\\desktop\\gym-mangment\\presentation\\dtos\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C32D43-02AF-43B6-AD7A-121B2E59BAB3}|Presentation.csproj|solutionrelative:dtos\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60AEA234-A511-4AE4-8E80-203DFAB6D85F}|..\\Repo\\Repo.csproj|c:\\users\\20120\\desktop\\gym-mangment\\repo\\data\\generic\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60AEA234-A511-4AE4-8E80-203DFAB6D85F}|..\\Repo\\Repo.csproj|c:\\users\\20120\\desktop\\gym-mangment\\repo\\data\\migrations\\20250410160520_inital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C32D43-02AF-43B6-AD7A-121B2E59BAB3}|Presentation.csproj|c:\\users\\20120\\desktop\\gym-mangment\\presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82C32D43-02AF-43B6-AD7A-121B2E59BAB3}|Presentation.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60AEA234-A511-4AE4-8E80-203DFAB6D85F}|..\\Repo\\Repo.csproj|c:\\users\\20120\\desktop\\gym-mangment\\repo\\data\\gymcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Interfaces\\IGeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Presentation.http",
+              "DocumentMoniker": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\Presentation.http",
+              "RelativeDocumentMoniker": "Presentation.http",
+              "ToolTip": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\Presentation.http",
+              "RelativeToolTip": "Presentation.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-09T18:45:55.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250509183033_Null In Entities.cs",
+              "DocumentMoniker": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\Data\\Migrations\\20250509183033_Null In Entities.cs",
+              "RelativeDocumentMoniker": "..\\Repo\\Data\\Migrations\\20250509183033_Null In Entities.cs",
+              "ToolTip": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\Data\\Migrations\\20250509183033_Null In Entities.cs",
+              "RelativeToolTip": "..\\Repo\\Data\\Migrations\\20250509183033_Null In Entities.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T18:30:33.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\Helper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Helper\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\Helper\\MappingProfile.cs",
+              "RelativeToolTip": "Helper\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T18:20:18.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MemberDTO.cs",
+              "DocumentMoniker": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\DTOS\\MemberDTO.cs",
+              "RelativeDocumentMoniker": "DTOS\\MemberDTO.cs",
+              "ToolTip": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\DTOS\\MemberDTO.cs",
+              "RelativeToolTip": "DTOS\\MemberDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T18:12:33.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IGeneric.cs",
+              "DocumentMoniker": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Interfaces\\IGeneric.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Interfaces\\IGeneric.cs",
+              "ToolTip": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Interfaces\\IGeneric.cs",
+              "RelativeToolTip": "..\\Core\\Interfaces\\IGeneric.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T17:50:26.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GenericRepo.cs",
+              "DocumentMoniker": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\Data\\Generic\\GenericRepo.cs",
+              "RelativeDocumentMoniker": "..\\Repo\\Data\\Generic\\GenericRepo.cs",
+              "ToolTip": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\Data\\Generic\\GenericRepo.cs",
+              "RelativeToolTip": "..\\Repo\\Data\\Generic\\GenericRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T17:48:27.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "Controllers\\MemberController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwDEAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T17:37:54.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Trainers.cs",
+              "DocumentMoniker": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Entites\\Trainers.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Entites\\Trainers.cs",
+              "ToolTip": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Entites\\Trainers.cs",
+              "RelativeToolTip": "..\\Core\\Entites\\Trainers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T17:35:24.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MemberShip.cs",
+              "DocumentMoniker": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Entites\\MemberShip.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Entites\\MemberShip.cs",
+              "ToolTip": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Entites\\MemberShip.cs",
+              "RelativeToolTip": "..\\Core\\Entites\\MemberShip.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T17:35:19.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GymContext.cs",
+              "DocumentMoniker": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\Data\\GymContext.cs",
+              "RelativeDocumentMoniker": "..\\Repo\\Data\\GymContext.cs",
+              "ToolTip": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\Data\\GymContext.cs",
+              "RelativeToolTip": "..\\Repo\\Data\\GymContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T17:31:00.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250410160520_inital.cs",
+              "DocumentMoniker": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\Data\\Migrations\\20250410160520_inital.cs",
+              "RelativeDocumentMoniker": "..\\Repo\\Data\\Migrations\\20250410160520_inital.cs",
+              "ToolTip": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\Data\\Migrations\\20250410160520_inital.cs",
+              "RelativeToolTip": "..\\Repo\\Data\\Migrations\\20250410160520_inital.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T12:31:39.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-13T23:11:46.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T23:11:40.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Entites\\Member.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Entites\\Member.cs",
+              "ToolTip": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Entites\\Member.cs",
+              "RelativeToolTip": "..\\Core\\Entites\\Member.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T16:26:00.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Entites\\Payment.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Entites\\Payment.cs",
+              "ToolTip": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Entites\\Payment.cs",
+              "RelativeToolTip": "..\\Core\\Entites\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T16:25:57.84Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
