@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation.csproj", "{82C32D43-02AF-43B6-AD7A-121B2E59BAB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation", "Presentation.csproj", "{82C32D43-02AF-43B6-AD7A-121B2E59BAB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "..\Core\Core.csproj", "{6AC4A525-ACFD-4451-9794-A4BDB4334DDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "..\Core\Core.csproj", "{6AC4A525-ACFD-4451-9794-A4BDB4334DDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repo", "..\Repo\Repo.csproj", "{60AEA234-A511-4AE4-8E80-203DFAB6D85F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repo", "..\Repo\Repo.csproj", "{60AEA234-A511-4AE4-8E80-203DFAB6D85F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "..\Service\Service.csproj", "{70FC3786-858F-4870-BE76-34DB8A9C527F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "..\Service\Service.csproj", "{70FC3786-858F-4870-BE76-34DB8A9C527F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

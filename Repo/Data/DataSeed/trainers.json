@@ -1,0 +1,74 @@
+﻿[
+  {
+    
+    "FullName": "Ahmed Khaled",
+    "Specialty": "Bodybuilding",
+    "Phone": "01012345678",
+    "Email": "ahmed.khaled@example.com",
+    "Salary": 8000,
+    "Members": []
+  },
+  {
+   
+    "FullName": "Laila Hassan",
+    "Specialty": "Yoga",
+    "Phone": "01123456789",
+    "Email": "laila.hassan@example.com",
+    "Salary": 7000,
+    "Members": []
+  },
+  {
+    
+    "FullName": "Youssef Nabil",
+    "Specialty": "CrossFit",
+    "Phone": "01234567890",
+    "Email": "youssef.nabil@example.com",
+    "Salary": 9000,
+    "Members": []
+  },
+  {
+   
+    "FullName": "Mona Tarek",
+    "Specialty": "Pilates",
+    "Phone": "01056789012",
+    "Email": "mona.tarek@example.com",
+    "Salary": 6800,
+    "Members": []
+  },
+  {
+    
+    "FullName": "Omar Adel",
+    "Specialty": "Kickboxing",
+    "Phone": "01099887766",
+    "Email": "omar.adel@example.com",
+    "Salary": 7200,
+    "Members": []
+  },
+  {
+    
+    "FullName": "Hana Mahmoud",
+    "Specialty": "Zumba",
+    "Phone": "01155667788",
+    "Email": "hana.mahmoud@example.com",
+    "Salary": 6900,
+    "Members": []
+  },
+  {
+   
+    "FullName": "Khaled Samir",
+    "Specialty": "Personal Training",
+    "Phone": "01211223344",
+    "Email": "khaled.samir@example.com",
+    "Salary": 9500,
+    "Members": []
+  },
+  {
+   
+    "FullName": "Nour El-Din",
+    "Specialty": "Functional Fitness",
+    "Phone": "01033445566",
+    "Email": "nour.eldin@example.com",
+    "Salary": 8500,
+    "Members": []
+  }
+]

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\Presentation.csproj": {}
+    "C:\\Users\\dell\\Gym-Mangment\\Presentation\\Presentation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Core.csproj": {
+    "C:\\Users\\dell\\Gym-Mangment\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\dell\\Gym-Mangment\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\20120\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\obj\\",
+        "projectPath": "C:\\Users\\dell\\Gym-Mangment\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dell\\Gym-Mangment\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\20120\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,21 +79,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\Presentation.csproj": {
+    "C:\\Users\\dell\\Gym-Mangment\\Presentation\\Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\dell\\Gym-Mangment\\Presentation\\Presentation.csproj",
         "projectName": "Presentation",
-        "projectPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\Presentation.csproj",
-        "packagesPath": "C:\\Users\\20120\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\obj\\",
+        "projectPath": "C:\\Users\\dell\\Gym-Mangment\\Presentation\\Presentation.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dell\\Gym-Mangment\\Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\20120\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,11 +108,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Core.csproj"
+              "C:\\Users\\dell\\Gym-Mangment\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\dell\\Gym-Mangment\\Core\\Core.csproj"
               },
-              "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\Repo.csproj": {
-                "projectPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\Repo.csproj"
+              "C:\\Users\\dell\\Gym-Mangment\\Repo\\Repo.csproj": {
+                "projectPath": "C:\\Users\\dell\\Gym-Mangment\\Repo\\Repo.csproj"
               }
             }
           }
@@ -166,21 +166,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\Repo.csproj": {
+    "C:\\Users\\dell\\Gym-Mangment\\Repo\\Repo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\Repo.csproj",
+        "projectUniqueName": "C:\\Users\\dell\\Gym-Mangment\\Repo\\Repo.csproj",
         "projectName": "Repo",
-        "projectPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\Repo.csproj",
-        "packagesPath": "C:\\Users\\20120\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\obj\\",
+        "projectPath": "C:\\Users\\dell\\Gym-Mangment\\Repo\\Repo.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dell\\Gym-Mangment\\Repo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\20120\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -195,8 +195,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Core.csproj"
+              "C:\\Users\\dell\\Gym-Mangment\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\dell\\Gym-Mangment\\Core\\Core.csproj"
               }
             }
           }
@@ -231,7 +231,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

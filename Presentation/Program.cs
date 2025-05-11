@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Presentation.Interfaces;
+using Repo;
 using Repo.Data;
 using Repo.Data.Generic;
 
@@ -45,8 +46,8 @@ namespace Presentation
                await _dbContext.Database.MigrateAsync();
 
                 // Seed the database with initial data if needed
-                // await SeedData.SeedInitialData(_dbContext);
-                
+                await GymContextSeed.SeedAsync(_dbContext);
+
             }
             catch (Exception ex)
             {

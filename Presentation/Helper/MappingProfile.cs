@@ -9,6 +9,7 @@ namespace Presentation.Helper
         public MappingProfile() 
         {
             CreateMap<Member, MemberDTO>().ReverseMap();
+            CreateMap<Trainers, TrainersDTO>().ReverseMap();
             
         }
     }
