@@ -40,6 +40,12 @@ namespace Presentation.Controllers
         public async Task<IActionResult> AddMember([FromBody] MemberDTO createDto)
         {
             if (createDto == null) return BadRequest();
+            var existingMember = await _memberRepo.GetAsync(createDto.Email);
+            if (existingMember != null)
+            {
+                return Ok(existingMember);
+            }
+
             var member = _mapper.Map<Member>(createDto);
             var result = await _memberRepo.Add(member);
             if (!result) return BadRequest();

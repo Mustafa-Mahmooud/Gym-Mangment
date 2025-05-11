@@ -16,8 +16,7 @@ namespace Repo.Data.Generic
         public GenericRepo(GymContext gymContext)
         {
             _gymContext = gymContext;
-            // Initialize the repository, e.g., set up a database context or in-memory collection
-
+            
         }
         public async Task<bool> Add(T entity)
         {
@@ -41,6 +40,31 @@ namespace Repo.Data.Generic
                 return false;
             });
         }
+
+        public async Task<T> GetAsync(string email)
+        {
+            if (typeof(T) == typeof(Member))
+            {
+                var member = await _gymContext.Set<Member>()
+                    .FirstOrDefaultAsync(p => p.Email == email);
+                return member as T;
+            }
+
+            if (typeof(T) == typeof(Trainers))
+            {
+                var trainer = await _gymContext.Set<Trainers>()
+                    .FirstOrDefaultAsync(p => p.Email == email);
+                return trainer as T;
+            }
+
+
+            return await _gymContext.Set<T>().FindAsync(email);
+
+
+        }
+       
+
+
 
         public async Task<IEnumerable<T>> GetAll()
         {

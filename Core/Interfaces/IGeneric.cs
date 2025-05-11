@@ -8,7 +8,9 @@ namespace Presentation.Interfaces
         Task<IEnumerable<T>> GetAll();
         Task<bool> Add(T entity);
         Task<bool> Update(T entity);
-        Task<bool> Delete(int id);    
-    
+        Task<bool> Delete(int id);
+        Task<T> GetAsync(string email); //member ,  Trainer  
+
+
     }
 }
