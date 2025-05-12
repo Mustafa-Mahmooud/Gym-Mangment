@@ -298,3 +298,4 @@ C:\Users\dell\Gym-Mangment\Presentation\obj\Debug\net8.0\refint\Presentation.dll
 C:\Users\dell\Gym-Mangment\Presentation\obj\Debug\net8.0\Presentation.pdb
 C:\Users\dell\Gym-Mangment\Presentation\obj\Debug\net8.0\Presentation.genruntimeconfig.cache
 C:\Users\dell\Gym-Mangment\Presentation\obj\Debug\net8.0\ref\Presentation.dll
+C:\Users\20120\Desktop\Gym-Mangment\Presentation\obj\Debug\net8.0\Presentation.sourcelink.json

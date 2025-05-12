@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dell\\Gym-Mangment\\Core\\Core.csproj": {}
+    "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dell\\Gym-Mangment\\Core\\Core.csproj": {
+    "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dell\\Gym-Mangment\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\dell\\Gym-Mangment\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dell\\Gym-Mangment\\Core\\obj\\",
+        "projectPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\20120\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\20120\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

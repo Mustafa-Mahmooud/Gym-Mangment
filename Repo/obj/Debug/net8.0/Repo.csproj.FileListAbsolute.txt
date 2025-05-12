@@ -29,3 +29,4 @@ C:\Users\dell\Gym-Mangment\Repo\obj\Debug\net8.0\Repo.dll
 C:\Users\dell\Gym-Mangment\Repo\obj\Debug\net8.0\refint\Repo.dll
 C:\Users\dell\Gym-Mangment\Repo\obj\Debug\net8.0\Repo.pdb
 C:\Users\dell\Gym-Mangment\Repo\obj\Debug\net8.0\ref\Repo.dll
+C:\Users\20120\Desktop\Gym-Mangment\Repo\obj\Debug\net8.0\Repo.sourcelink.json
