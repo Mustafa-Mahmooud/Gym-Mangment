@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\Presentation.csproj": {}
+    "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Presentation\\Presentation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Core.csproj": {
+    "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\20120\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\obj\\",
+        "outputPath": "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\20120\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,18 +79,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\Presentation.csproj": {
+    "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Presentation\\Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Presentation\\Presentation.csproj",
         "projectName": "Presentation",
-        "projectPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\Presentation.csproj",
+        "projectPath": "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Presentation\\Presentation.csproj",
         "packagesPath": "C:\\Users\\20120\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Presentation\\obj\\",
+        "outputPath": "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\20120\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -108,11 +108,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Core.csproj"
+              "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Core\\Core.csproj"
               },
-              "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\Repo.csproj": {
-                "projectPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\Repo.csproj"
+              "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Repo\\Repo.csproj": {
+                "projectPath": "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Repo\\Repo.csproj"
               }
             }
           }
@@ -142,6 +142,10 @@
               "target": "Package",
               "version": "[8.0.15, )"
             },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[48.2.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -166,18 +170,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\Repo.csproj": {
+    "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Repo\\Repo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\Repo.csproj",
+        "projectUniqueName": "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Repo\\Repo.csproj",
         "projectName": "Repo",
-        "projectPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\Repo.csproj",
+        "projectPath": "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Repo\\Repo.csproj",
         "packagesPath": "C:\\Users\\20120\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\obj\\",
+        "outputPath": "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Repo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\20120\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -195,8 +199,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Core.csproj"
+              "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Core\\Core.csproj"
               }
             }
           }
@@ -231,7 +235,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

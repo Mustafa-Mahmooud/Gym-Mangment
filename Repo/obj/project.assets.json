@@ -2737,11 +2737,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\Repo.csproj",
+      "projectUniqueName": "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Repo\\Repo.csproj",
       "projectName": "Repo",
-      "projectPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\Repo.csproj",
+      "projectPath": "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Repo\\Repo.csproj",
       "packagesPath": "C:\\Users\\20120\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Repo\\obj\\",
+      "outputPath": "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Repo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\20120\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2759,8 +2759,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Core\\Core.csproj"
+            "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Core\\Core.csproj"
             }
           }
         }
@@ -2795,7 +2795,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Service\\Service.csproj",
+      "projectUniqueName": "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Service\\Service.csproj",
+      "projectPath": "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Service\\Service.csproj",
       "packagesPath": "C:\\Users\\20120\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\20120\\Desktop\\Gym-Mangment\\Service\\obj\\",
+      "outputPath": "C:\\Users\\20120\\Desktop\\Project\\Gym-Mangment\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\20120\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
