@@ -28,6 +28,21 @@ namespace Repo
                     await gymContext.SaveChangesAsync();
                 }
             }
+             if (!gymContext.Members.Any())
+            {
+                var TrainersData = File.ReadAllText("../Repo/Data/DataSeed/MemebrSeed.json");
+                var Trainers = JsonSerializer.Deserialize<List<Member>>(TrainersData);
+
+                if (Trainers?.Count > 0)
+                {
+                    foreach (var Trainer in Trainers)
+                    {
+                        await gymContext.Set<Member>().AddAsync(Trainer);
+                    }
+                    await gymContext.SaveChangesAsync();
+                }
+            }
         }
+        
     }
 }

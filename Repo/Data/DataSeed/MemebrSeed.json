@@ -1,0 +1,27 @@
+﻿[
+  {
+    "FullName": "Nina Doe",
+    "Gender": "Female",
+    "DateOfBirth": "1995-06-13T00:00:00Z",
+    "Phone": "+11665104453",
+    "Email": "nina.doe1@example.com",
+    "TrainerId": 2
+  },
+  {
+    "FullName": "Mike Smith",
+    "Gender": "Female",
+    "DateOfBirth": "2001-02-21T00:00:00Z",
+    "Phone": "+12035595517",
+    "Email": "mike.smith2@example.com",
+    "TrainerId": 1
+    
+  },
+  {
+    "FullName": "Sara Moore",
+    "Gender": "Male",
+    "DateOfBirth": "1989-12-23T00:00:00Z",
+    "Phone": "+15468374916",
+    "Email": "sara.moore3@example.com",
+    "TrainerId": 2
+  }
+]

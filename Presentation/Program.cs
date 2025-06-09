@@ -23,6 +23,7 @@ namespace Presentation
             builder.Services.AddSwaggerGen();
 
 
+            builder.Services.AddHttpClient(); // Register HttpClient for dependency injection
 
             //DI
             builder.Services.AddDbContext<GymContext>(options =>
