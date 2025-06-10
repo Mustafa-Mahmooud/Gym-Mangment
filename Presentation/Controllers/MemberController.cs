@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Core.Entites;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Presentation.DTOS;
 using Presentation.Interfaces;
@@ -20,6 +21,7 @@ namespace Presentation.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetAllMembers()
         {
             var members = await _memberRepo.GetAll();
@@ -28,6 +30,7 @@ namespace Presentation.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize]
         public async Task<IActionResult> GetMemberById(int id)
         {
             var member = await _memberRepo.GetById(id);
@@ -37,6 +40,7 @@ namespace Presentation.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> AddMember([FromBody] MemberDTO createDto)
         {
             if (createDto == null) return BadRequest();
@@ -47,6 +51,7 @@ namespace Presentation.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize]
         public async Task<IActionResult> UpdateMember(int id, [FromBody] MemberDTO updateDto)
         {
             var existing = await _memberRepo.GetById(id);
@@ -59,6 +64,7 @@ namespace Presentation.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> DeleteMember(int id)
         {
             var result = await _memberRepo.Delete(id);

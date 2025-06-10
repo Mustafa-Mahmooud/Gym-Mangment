@@ -1,10 +1,15 @@
 
+using Core.CreateToken;
+using Core.Entites.Identity;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Presentation.Interfaces;
 using Repo;
 using Repo.Data;
 using Repo.Data.Generic;
+using System.Text;
 
 namespace Presentation
 {
@@ -29,23 +34,69 @@ namespace Presentation
             builder.Services.AddDbContext<GymContext>(options =>
                  options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+            //Identity Dbcontext
+            builder.Services.AddDbContext<IdentityContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"));
+            });
+
+            builder.Services.AddIdentity<AppUser, IdentityRole>()
+                    .AddEntityFrameworkStores<IdentityContext>()
+                    .AddDefaultTokenProviders();
+
+
+
             builder.Services.AddScoped(typeof(IGeneric<>), typeof(GenericRepo<>));
             builder.Services.AddAutoMapper(typeof(Program));
+
+
+            #region JWT
+            builder.Services.AddScoped(typeof(IToken), typeof(Token));
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+                .AddJwtBearer(options =>
+                {
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    ValidIssuer = builder.Configuration["Jwt:Issuer"],
+                    ValidAudience = builder.Configuration["Jwt:Audience"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+                };
+            });
+            #endregion
+
 
 
 
             var app = builder.Build();
 
+
+
+
+
+
             #region Database Migration and Seeding
             using var scope = app.Services.CreateScope();
             var services = scope.ServiceProvider;
+
             var _dbContext = services.GetRequiredService<GymContext>();
+
+            var IdentityDbContext = services.GetRequiredService<IdentityContext>();
+            
             var loggerFactory = services.GetRequiredService<ILoggerFactory>();
 
             try
             {
-               await _dbContext.Database.MigrateAsync();
-
+              
+                await _dbContext.Database.MigrateAsync();
+                await IdentityDbContext.Database.MigrateAsync();
                 // Seed the database with initial data if needed
                 await GymContextSeed.SeedAsync(_dbContext);
 

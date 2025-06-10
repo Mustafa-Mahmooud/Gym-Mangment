@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Core.Entites;
+using Core.Entites.Identity;
 using Presentation.DTOS;
 
 namespace Presentation.Helper
@@ -10,6 +11,9 @@ namespace Presentation.Helper
         {
             CreateMap<Member, MemberDTO>().ReverseMap();
             CreateMap<Trainers, TrainersDTO>().ReverseMap();
+
+            CreateMap<AppUser,UserDto>().ReverseMap();
+
             
         }
     }

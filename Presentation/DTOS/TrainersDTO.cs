@@ -9,6 +9,8 @@ namespace Presentation.DTOS
         public string Phone { get; set; }
         [EmailAddress]
         public string? Email { get; set; }
+
+       
         public int Salary { get; set; }
     }
 }

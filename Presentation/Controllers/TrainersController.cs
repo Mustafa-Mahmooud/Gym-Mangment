@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using AutoMapper.Execution;
 using Core.Entites;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Presentation.DTOS;
@@ -25,6 +26,7 @@ namespace Presentation.Controllers
 
 
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<TrainersDTO>>> GetAllTrainersAsync()
         {
             var Trainers = await _trainersRepo.GetAll();
@@ -35,6 +37,7 @@ namespace Presentation.Controllers
 
 
         [HttpGet("{id}")]
+        [Authorize]
         public async Task<ActionResult<TrainersDTO>> GetTrainerByIdAsync(int id)
         {
             var Trainer = await _trainersRepo.GetById(id);
@@ -46,6 +49,7 @@ namespace Presentation.Controllers
 
 
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult<TrainersDTO>> AddTrainer([FromBody] TrainersDTO trainersDTO)
         {
             if (trainersDTO == null) return BadRequest();
@@ -58,6 +62,7 @@ namespace Presentation.Controllers
 
 
         [HttpPut("{id}")]
+        [Authorize]
         public async Task<ActionResult<TrainersDTO>> UpdateTrainer(int id, [FromBody] TrainersDTO trainersDTO)
         {
             var existingTrainer = await _trainersRepo.GetById(id);    //Trainers
@@ -72,6 +77,7 @@ namespace Presentation.Controllers
 
 
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> DeleteMember(int id)
         {
             var result = await _trainersRepo.Delete(id);
